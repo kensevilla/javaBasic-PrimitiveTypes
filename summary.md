@@ -93,3 +93,9 @@
 2. the test failed at first because the method add will throw a different exception
 3. I did a validation checking if the parameters is equal or greater than the MAX_VALUE, if it is then I'll throw the exception, if not, i'll simply add the parameters
 4. None
+
+**just_prevent_lazy_implementation**
+1. manually throwing exceptions. https://www.cis.upenn.edu/~bcpierce/courses/629/jdkdocs/api/java.lang.ArithmeticException.html
+2. 
+3. I did a validation checking if the parameters is equal or greater than the MAX_VALUE, if it is then I'll throw the exception, if not, i'll simply add the parameters
+4. None
