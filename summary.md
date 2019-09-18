@@ -3,3 +3,9 @@
 2. first I do not know the difference between the operators so I kind of guessed. but then I learned that when with boolean the behavior of bitwise is actually similar to the logical operators
 3. I used basic logical operator knowledge, since it's only boolean, then I figure that it is similar. 
 4. None
+
+**should_describe_escaped_chars**
+1. how escaping character can be understood by java. https://stackoverflow.com/questions/1367322/what-are-all-the-escape-characters
+2. first I tried actually input the literal values but it is encountering an error because some are not seen as character.
+3. based on the method name I figure that I should use escape characters to satisfy the expected output
+4. None
