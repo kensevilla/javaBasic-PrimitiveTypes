@@ -81,3 +81,9 @@
 2. the test failed at first because I tried to just simply add 1 to the value
 3. when adding 1 to the MAX_VALUE, the value that will be returned will point to the MIN_VALUE
 4. None
+
+**should_underflow_silently**
+1. When the value of integer goes beyond the MIN_VALUE. https://stackoverflow.com/questions/5131131/what-happens-when-you-increment-an-integer-beyond-its-max-value
+2. the test failed at first because the expected result it just set to 0 which is not similar to theNumberWillUnderflow
+3. when subtracting 1 to the MIN_VALUE, the value that will be returned will point to the MAX_VALUE
+4. None
