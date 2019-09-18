@@ -9,3 +9,9 @@
 2. first I tried actually input the literal values but it is encountering an error because some are not seen as character.
 3. based on the method name I figure that I should use escape characters to satisfy the expected output
 4. None
+
+**should_not_get_rounded_result_if_convert_floating_number_to_integer**
+1. how casting float to int can automatically convert the value into integer. https://www.java67.com/2015/10/how-to-convert-float-to-int-in-java-example.html
+2. since the first value of variable expected is Integer.MAX_VALUE
+3. based on my knowledge, casting a float to int will just remove the decimal places of the value and will just make it a whole number so I just set the value to 2
+4. None
