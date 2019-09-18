@@ -57,3 +57,9 @@
 2. the test failed at first because the value of maximumSymbol and minimumSymbol is just 0 which is not similar to the expected.
 3. since there is already a predefined method in Integer class that will get the maximum and minimum values, I just used those methods and put the value to the variables.
 4. None
+
+**should_get_range_of_primitive_short_type**
+1. Short class speficically MAX_VALUE and MIN_VALUE. http://www.java2s.com/Tutorials/Java/Data_Types/Find_out_the_min_value_max_value_and_size_of_Java_Short_types.htm
+2. the test failed at first because I still tried to use the MAX_VALUE and MIN_VALUE in Integer class so it has an error
+3. since there is already a predefined method in Short class that will get the maximum and minimum values, I just used those methods and put the value to the variables.
+4. None
