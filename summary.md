@@ -4,6 +4,12 @@
 3. I used basic logical operator knowledge, since it's only boolean, then I figure that it is similar. 
 4. None
 
+**should_do_bitwise_not_operation**
+1. how ~ works. https://www.geeksforgeeks.org/operators-in-java/
+2. I do not know how ~ works, but since the expected variable at first is 0. then it should not be similar with the actual value
+3. ~ will just inverse the binary conversion of the value. meaning it will convert the value to binary and returns the compliment representation in this case, -65536.
+4. None
+
 **should_describe_escaped_chars**
 1. how escaping character can be understood by java. https://stackoverflow.com/questions/1367322/what-are-all-the-escape-characters
 2. first I tried actually input the literal values but it is encountering an error because some are not seen as character.
