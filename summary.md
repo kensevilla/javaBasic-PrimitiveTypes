@@ -33,3 +33,9 @@
 2. since the first value of variable expected is Integer.MAX_VALUE
 3. based on my knowledge, casting a float to int will just remove the decimal places of the value and will just make it a whole number so I just set the value to 2
 4. None
+
+**should_judge_special_double_cases**
+1. the use of Double class specifically about inifinite and NaN. https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html
+2. it failed at first because I used (Double.NaN == realNumber) which is always returning false. Then I noticed that there is a method Double.isNaN.
+3. since dividing decimals except 0.0 by 0.0 will always return infinite and dividing 0.0 by 0.0 return NaN, I just used the predefined method in Double class to check the values.
+4. None
