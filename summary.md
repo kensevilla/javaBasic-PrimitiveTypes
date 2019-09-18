@@ -99,3 +99,9 @@
 2. 
 3. I did a validation checking if the parameters is equal or greater than the MAX_VALUE, if it is then I'll throw the exception, if not, i'll simply add the parameters
 4. None
+
+**should_increment**
+1. the use of ++. https://www.programiz.com/article/increment-decrement-operator-difference-prefix-postfix
+2. The test failed at first because I thought that using ++ as suffix and putting it in a variable will get the actual current value. 
+3. I set the expectedResult to 3 since integer was incremented after the value was given to expectedResult. I set expectedCurrentInteger to 4 since that is where the value was actually incremented which is variable integer
+4. None
