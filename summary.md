@@ -45,3 +45,9 @@
 2. since the first value of variable expected is Integer.MAX_VALUE
 3. based on my knowledge, casting a float to int will just remove the decimal places of the value and will just make it a whole number so I just set the value to 2
 4. None
+
+**should_round_number**
+1. Math.ceil(). https://stackoverflow.com/questions/8753959/round-a-floating-point-number-to-the-next-integer-value-in-java
+2. the test failed at first because I just cast the floatingPointNumber to long assuming that it will automatically round up
+3. I manually rounded up floatingPointNumber by using Math.ceil() then casted it to long
+4. None
