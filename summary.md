@@ -10,6 +10,11 @@
 3. & will convert the values to binary and compare it with AND operator, in this case 1001010101100000000 = 305920
 4. None
 
+**should_do_bitwise_or_boolean_operation**
+1. how | works. https://www.geeksforgeeks.org/operators-in-java/
+2. I do not know how | works at first.
+3. | will convert the values to binary and compare it with OR operator, in this case 10010001101001010101111001101 = 305441741
+4. None
 
 **should_do_bitwise_not_operation**
 1. how ~ works. https://www.geeksforgeeks.org/operators-in-java/
