@@ -105,3 +105,9 @@
 2. The test failed at first because I thought that using ++ as suffix and putting it in a variable will get the actual current value. 
 3. I set the expectedResult to 3 since integer was incremented after the value was given to expectedResult. I set expectedCurrentInteger to 4 since that is where the value was actually incremented which is variable integer
 4. None
+
+**should_increment_2**
+1. the use of ++. https://www.programiz.com/article/increment-decrement-operator-difference-prefix-postfix
+2. 
+3. I set the expectedResult to 4 since ++ was used as a prefix which means that it will increment first then will return the value. I set expectedCurrentInteger to 4 since that is where the value was actually incremented which is variable integer
+4. None
