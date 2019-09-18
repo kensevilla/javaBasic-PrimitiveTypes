@@ -171,7 +171,12 @@ class IntegerTypeTest {
     @SuppressWarnings("unused")
     private int add(int left, int right) {
         // TODO: Please find the method that adding two numbers with overflow checking.
-        // The method should throw ArithmeticException if overflow or underflow happens.
-        throw new NotImplementedException();
+        if(Integer.MAX_VALUE == left || Integer.MAX_VALUE == right){
+            throw new ArithmeticException();
+        }
+        else{
+            return left + right;
+        }
+
     }
 }
