@@ -100,6 +100,12 @@
 3. I did a validation checking if the parameters is equal or greater than the MAX_VALUE, if it is then I'll throw the exception, if not, i'll simply add the parameters
 4. None
 
+**should_truncate_number_when_casting**
+1. how int variable will automatically converted when casted to short. https://stackoverflow.com/questions/18860817/java-explicit-conversion-from-int-to-short
+2. the test failed at first because the expected is set to 0 and is not similar to the expected
+3. short will get the only 16 bits so it would truncate the value, the binary value can then be converted into decimal to get 17767 
+4. None
+
 **should_increment**
 1. the use of ++. https://www.programiz.com/article/increment-decrement-operator-difference-prefix-postfix
 2. The test failed at first because I thought that using ++ as suffix and putting it in a variable will get the actual current value. 
