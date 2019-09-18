@@ -39,3 +39,9 @@
 2. it failed at first because I used (Double.NaN == realNumber) which is always returning false. Then I noticed that there is a method Double.isNaN.
 3. since dividing decimals except 0.0 by 0.0 will always return infinite and dividing 0.0 by 0.0 return NaN, I just used the predefined method in Double class to check the values.
 4. None
+
+**should_not_round_number_when_convert_to_integer**
+1. how casting float to int can automatically convert the value into integer. https://www.java67.com/2015/10/how-to-convert-float-to-int-in-java-example.html
+2. since the first value of variable expected is Integer.MAX_VALUE
+3. based on my knowledge, casting a float to int will just remove the decimal places of the value and will just make it a whole number so I just set the value to 2
+4. None
