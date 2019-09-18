@@ -100,6 +100,12 @@
 3. I did a validation checking if the parameters is equal or greater than the MAX_VALUE, if it is then I'll throw the exception, if not, i'll simply add the parameters
 4. None
 
+**should_take_care_of_number_type_when_doing_calculation**
+1. how double type can remove the decimal places. https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html
+2. the test failed at first because I inputted the literal value after the calculation
+3. double will automatically remove the decimal places, so 2 / 3 * 5 = 0.13333, thus returning 0. and 2 * 5 / 3 = 3.3333 thus returning 0. 
+4. None
+
 **should_truncate_number_when_casting**
 1. how int variable will automatically converted when casted to short. https://stackoverflow.com/questions/18860817/java-explicit-conversion-from-int-to-short
 2. the test failed at first because the expected is set to 0 and is not similar to the expected
