@@ -69,3 +69,9 @@
 2. the test failed at first because the value of maximumSymbol and minimumSymbol is just 0 which is not similar to the expected.
 3. since there is already a predefined method in Long class that will get the maximum and minimum values, I just used those methods and put the value to the variables.
 4. None
+
+**should_get_range_of_primitive_byte_type**
+1. Byte class speficically MAX_VALUE and MIN_VALUE. https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+2. the test failed at first because the value of maximumSymbol and minimumSymbol is just 0 which is not similar to the expected.
+3. since there is already a predefined method in Byte class that will get the maximum and minimum values, I just used those methods and put the value to the variables.
+4. None
