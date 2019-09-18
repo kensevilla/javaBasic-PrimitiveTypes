@@ -51,3 +51,9 @@
 2. the test failed at first because I just cast the floatingPointNumber to long assuming that it will automatically round up
 3. I manually rounded up floatingPointNumber by using Math.ceil() then casted it to long
 4. None
+
+**should_get_range_of_primitive_int_type**
+1. Integer class speficically MAX_VALUE and MIN_VALUE. http://www.java2s.com/Tutorial/Java/0040__Data-Type/IntegerMAXMINVALUE.htm
+2. the test failed at first because the value of maximumSymbol and minimumSymbol is just 0 which is not similar to the expected.
+3. since there is already a predefined method in Integer class that will get the maximum and minimum values, I just used those methods and put the value to the variables.
+4. None
